@@ -31,8 +31,8 @@ export function GlobalProvider({ children }: { children: React.ReactNode }) {
 
   const login = useCallback(() => {
     setLoggedUser({
-      email: 'mateus@jstack.com.br',
-      name: 'Mateus Silva',
+      email: 'mjos@email.com.br',
+      name: 'Michel John',
     });
   }, []);
 
